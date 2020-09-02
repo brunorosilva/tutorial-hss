@@ -8,7 +8,7 @@ st.title("App exemplo")
 st.markdown("Isso vai ser um bloco de texto")
 
 df = pd.DataFrame({
-    "Dados":np.random.normal(0, 1, 1000)
+    "Dados":np.random.normal(0, 1, 100)
 })
 
 plt.plot(df.Dados)
